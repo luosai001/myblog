@@ -1,0 +1,24 @@
+1.获取远程代码
+git clone git://github.com/schacon/ticgit.git
+2.添加远程仓库
+git remote add pb git://github.com/paulboone/ticgit.git
+3.获取远程仓库有的，本地仓库没有的
+git fetch pb
+4.从远程仓库抓取数据
+ git fetch [remote-name]
+5.推送数据到远程仓库
+ git push origin master
+6.查看远程仓库信息
+ git remote show origin
+ 7.远程仓库的删除和重命名
+ git remote rename pb paul
+ git remote rm paul
+ 8.显示分支
+ git branch
+ 9.查看本地、远程仓库分支
+ git branch -a
+ 10.合并分支
+ git merge <branch-name>
+ 11.删除分支
+ git branch -d testing
+ 

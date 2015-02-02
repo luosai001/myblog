@@ -21,4 +21,13 @@ git fetch pb
  git merge <branch-name>
  11.删除分支
  git branch -d testing
- 
+12.git fetch：相当于是从远程获取最新版本到本地，不会自动merge
+git fetch origin master
+git log -p master origin/master
+git merge origin/master
+首先从远程的origin的master主分支下载最新的版本到origin/master分支上
+然后比较本地的master分支和origin/master分支的差别
+最后进行合并
+13 远程仓库跟新到本地，并合并。
+git pull origin master
+

@@ -1,3 +1,7 @@
+    官方网站git学习教程：
+    http://git-scm.com/book/zh/v1
+
+常用命令：
 1.获取远程代码
 git clone git://github.com/schacon/ticgit.git
 2.添加远程仓库
